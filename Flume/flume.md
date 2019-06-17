@@ -80,7 +80,3 @@ Compiled by jenkins on Wed Mar 23 11:38:48 PDT 2016
 From source with checksum 50b533f0ffc32db9246405ac4431872e
 [hadoop@hadoop000 ~]$
 --------------------- 
-作者：wawa8899 
-来源：CSDN 
-原文：https://blog.csdn.net/wawa8899/article/details/82897499 
-版权声明：本文为博主原创文章，转载请附上博文链接！
