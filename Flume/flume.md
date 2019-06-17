@@ -40,9 +40,18 @@ flume 是由Apache提供的一个分布式、高可靠、高可用的服务，�
 
 ## Flume架构及核心组件
 
+1) Source 收集
 
+2) Channel 聚集
+Memory Channel \Kafka Channel \File Channel
 
-
+3) Sink 输出
+HDFS Sink \ Hive Sink \ Logger Sink \Avro Sink \ HBase Sink \ Kafka Sink \
 
 ## Flume 环境部署
+
+前置条件： Java Runtime Environment - Java 1.8 or later;
+Memory - Sufficient memory for configurations used by sources, channels or sinks;
+Disk Space - Sufficient disk space for configurations used by channels or sinks;
+Directory Permissions - Read/Write permissions for directories used by agent;
 
