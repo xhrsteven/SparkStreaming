@@ -79,7 +79,7 @@ Revision: 8f5f5143ae30802fe79f9ab96f893e6c54a105d1
 Compiled by jenkins on Wed Mar 23 11:38:48 PDT 2016
 From source with checksum 50b533f0ffc32db9246405ac4431872e
 [hadoop@hadoop000 ~]$
---------------------- 
+
 
 #### 使用Flume的关键就是写配置文件
 
