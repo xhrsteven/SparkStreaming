@@ -55,23 +55,23 @@ Memory - Sufficient memory for configurations used by sources, channels or sinks
 Disk Space - Sufficient disk space for configurations used by channels or sinks;
 Directory Permissions - Read/Write permissions for directories used by agent;
 
-#  下载解压
+####  下载解压
 [hadoop@hadoop01 software]$ wget http://archive.cloudera.com/cdh5/cdh/5/flume-ng-1.6.0-cdh5.7.0.tar.gz
 [hadoop@hadoop01 software]$ tar -zxvf flume-ng-1.6.0-cdh5.7.0.tar.gz -C ~/app/
 
-# 配置环境变量（使用root用户）
+#### 配置环境变量（使用root用户）
 [root@hadoop01 ~]# vi /etc/profile
 export FLUME_HOME=/home/hadoop/app/apache-flume-1.6.0-cdh5.7.0-bin
 export PATH=$FLUME_HOME/bin:$PATH
 [root@hadoop01 ~]# source /etc/profile
 
-# 修改配置文件
+#### 修改配置文件
 [hadoop@hadoop01 software]$ cd ~/app/apache-flume-1.6.0-cdh5.7.0-bin/
 [hadoop@hadoop01 apache-flume-1.6.0-cdh5.7.0-bin]$ cp conf/flume-env.sh.template conf/flume-env.sh
 [hadoop@hadoop01 apache-flume-1.6.0-cdh5.7.0-bin]$ vi conf/flume-env.sh
 export JAVA_HOME=/usr/java/jdk1.8.0_45
 
-# 验证安装完成
+#### 验证安装完成
 [hadoop@hadoop000 ~]$ flume-ng version
 Flume 1.6.0-cdh5.7.0
 Source code repository: https://git-wip-us.apache.org/repos/asf/flume.git
@@ -80,3 +80,10 @@ Compiled by jenkins on Wed Mar 23 11:38:48 PDT 2016
 From source with checksum 50b533f0ffc32db9246405ac4431872e
 [hadoop@hadoop000 ~]$
 --------------------- 
+
+#### 使用Flume的关键就是写配置文件
+
+A） 配置Source
+B） 配置Channel
+C） 配置Sink
+D） 把以上三个组件串起来
