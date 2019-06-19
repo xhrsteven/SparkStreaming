@@ -1,4 +1,4 @@
-#Kafka概述--消息队列
+# Kafka概述--消息队列
 kafka.apache.org
 
 A distributed streaming platform
@@ -14,16 +14,16 @@ STORE
 
 Kafka is used for building real-time data pipelines and streaming apps. It's horizontally scalable, fault-tolearant, wicked fast, and runs in production in thousands of companies.
 
-#Kafka架构及核心概念
+# Kafka架构及核心概念
 
 
 
-#Kafka部署
+# Kafka部署
 
 
-#kafka容错性测试
+# kafka容错性测试
 
 
-#Kafka API
+# Kafka API
 
 
